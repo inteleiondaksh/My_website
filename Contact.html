@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background-color: rgba(32, 181, 218, 0.404);
+      color: gold;
+      font-size: 30px;
+    }
+
+    #Like {
+      background-color: rgb(0, 255, 64);
+      color: rgb(119, 0, 255);
+      height: 1200px;
+      width: 1000px;
+      border-width: 20px;
+      border-style: dashed;
+      border-color: rgb(140, 0, 255);
+    }
+
+    ul-nav {
+      background-color: rgb(255, 255, 255);
+    }
+
+    li-nav {
+      display: inline;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <ul-nav style="list-style-type: none;">
+      <li-nav>
+        <a class="Minecraft_Dungeons" href="index.html">Home</a>
+      </li-nav>
+      <li-nav>
+        <a class="Minecraft_Dungeons" href="about.html">About us</a>
+      </li-nav>
+      <li-nav>
+        <a class="Minecraft_Dungeons" href="Contact.html">Contact us</a>
+      </li-nav>
+      <li-nav>
+        <a class="Minecraft_Dungeons" href="favorite_video.html">Watch My favorite youtube videos</a>
+      </li-nav>
+    </ul-nav>
+  </nav>
+  <h1>Contact Me</h1>
+  <center>
+    <div id="Like">
+      <p style="color: rgb(0, 126, 73);font-size: 50px;font-family: 'Gloucester MT';">daksh.asish@gmail.com</p>
+      <p style="color: crimson;font-size: 50px;font-family: 'Phosphate';"> Brizal,Amazon Rainforest 8902</p>
+      <div class="container">
+        <form action="action_page.php">
+          <p>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          </p>
+          <p>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          </p>
+
+          <p>
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+          </p>
+          <p>
+            <label for="subject">Date of Birth</label>
+            <input type="text" id="DOB" name="DOB" placeholder="DOB=Date of birth" >
+          </p>
+          <p>
+            <label for="email">email</label>
+            <input type="text"  id="email" name="email" placeholder="email" >
+          </p>
+          <p>
+            <label for=" address"> Address</label>
+            <textarea id=" address" name=" address" placeholder=" Address" style="height:50px"></textarea>
+            </br>
+          </p>
+          <p>
+            <label for="comp">Complain/Suggestion: </label>
+            </br>
+            <textarea name="comp" rows="4" cols="20" placeholder="Enter your complain suggestions here"></textarea>
+            </br>
+          </p>
+          <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+          </p>
+
+        </form>
+        <p style="color: rgb(253, 175, 8);font-size: 50px;font-family: 'Bradley Hand';">Made By Daksh</p>
+      </div>
+  </center>
+
+</body>
+
+</html>
